@@ -1,18 +1,13 @@
-## Getting Started
+# Sistema de Gestión de Usuarios y Cuentas (Prog-II)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es un proyecto educativo desarrollado en **Java** que implementa la lógica básica para la gestión de usuarios, reportes y operaciones bancarias simples.
 
-## Folder Structure
+## 🚀 Estructura del Proyecto
 
-The workspace contains two folders by default, where:
+El proyecto está organizado en los siguientes archivos dentro de la carpeta `src`:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+*   **Usuario.java**: Clase que define el perfil del usuario (nombre, edad, etc.).
+*   **CuentaBancaria.java**: Lógica para el manejo de saldos y transacciones.
+*   **Reporte.java**: Generación de informes basados en los datos del sistema.
+*   **SistemaGestor.java**: Clase principal que coordina las operaciones entre usuarios y cuentas.
+*   **App.java**: Punto de entrada del programa (Main).
